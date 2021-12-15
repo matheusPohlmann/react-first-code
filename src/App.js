@@ -13,7 +13,6 @@ export default function App() {
   const [tasks, setTasks] = useState([]);
 
   const addTask = (title, state) => {
-    console.log("No app ela veio nervosa!");
     const newTask = {
       id: generateId(),
       title,
