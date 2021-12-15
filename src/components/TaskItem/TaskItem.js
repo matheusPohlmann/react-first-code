@@ -32,12 +32,16 @@ export default function TaskItem({
 
   if (isEditing) {
     return (
-      <input
-        type="text"
-        value={editableTitle}
-        onChange={onTitleChange}
-        onKeyPress={onKeyPress}
-      />
+      <div className="card bg-secondary mb-2">
+        <div className="card-body">
+          <input
+            type="text"
+            value={editableTitle}
+            onChange={onTitleChange}
+            onKeyPress={onKeyPress}
+          />
+        </div>
+      </div>
     );
   } else {
     return (
