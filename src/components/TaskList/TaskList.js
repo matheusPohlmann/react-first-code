@@ -11,7 +11,6 @@ export default function TaskList({
   onDeleteTask
 }) {
   const addTask = () => {
-    console.log("No TaskList ela tbm veio fulminante!");
     onAddTask("Nova Tarefa", taskState);
   };
 
