@@ -35,6 +35,7 @@ export default function TaskItem({
       <div className="card bg-secondary mb-2">
         <div className="card-body">
           <input
+            className="form-control"
             type="text"
             value={editableTitle}
             onChange={onTitleChange}
